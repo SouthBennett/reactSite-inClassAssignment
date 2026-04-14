@@ -1,10 +1,27 @@
 .nav-logo {
-  width: 40px;
+  width: 100px;
   margin-right: 7px;
 }
 
-nav {
+.header {
   display: flex;
+  justify-content: space-between;
+  background-color: #1b5e20;
   align-items: center;
-  background-color: #2F5D3A;
+  padding: 1rem;
+}
+
+.title {
+  color: white;
+  margin: 0;
+}
+
+.nav-link {
+  color: white;
+  margin-left: 15px;
+  text-decoration: none;
+}
+
+.nav-link:hover {
+  text-decoration: underline;
 }
