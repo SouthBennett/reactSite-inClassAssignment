@@ -1,5 +1,13 @@
+import "../components/Header.css"
+
 export default function Header() {
   return (
-    <h1>This is where the header goes</h1>
+    <header>
+      <nav>
+        <img src="/img/lort.jpg" alt="lotr-logo" className="nav-logo"/>
+        <h1>The Free Peoples of Middle-Earth</h1>
+      </nav>
+    </header>
+    
   )
 }
