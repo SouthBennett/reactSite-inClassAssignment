@@ -1,18 +1,74 @@
 
 .card {
     color: red;
-    display: flex;
-    flex-direction: row;
-    margin-top: 5rem;
-    
-
-}
-.card h1{
+    display: grid;
+    grid-template-areas:
+        "title title title"
+        "name name name"
+        "region image stats"
+        "details image map"
+        "facts facts facts"
+    ;
+    grid-template-columns: 1fr 2fr 1fr;
+    grid-template-rows: auto auto 0.5fr 1fr auto;
+    width: 70%;
+    min-height: 500px;
+    margin: 20px auto;
+    padding: 20px;
+    gap: 12px;
+    background: #1e1e1e;
     color: white;
-    font-weight: bold;
+    border-radius: 16px;
+    position: relative;
+    
 }
-.card img{
-    width: 20rem;
-    height: 30rem;
-    transform: translateY(-10%);
+
+.title{
+    grid-area: title;
+    text-align: center;
 }
+.name{
+    grid-area: name;
+    text-align: center;
+}
+
+
+.character-img{
+    grid-area: image;
+    width: 100%;
+    max-width: 250px;
+    align-self: center;
+    justify-self: center;
+    z-index: 0;
+    /* border-radius: 2rem;
+    border-style: dashed; */
+}
+
+.region{
+    grid-area: region;
+}
+
+.stats{
+    grid-area: stats;
+}
+
+.detail{
+    grid-area: details;
+}
+
+.map{
+    grid-area: map;
+    width: 150%;
+    height: 150%;
+    border-radius: 3rem;
+    border-width: 2px;
+    border-style:double;
+    margin-top: -3rem;
+}
+
+.facts{
+    grid-area: facts;
+    list-style: none;
+    padding: 0;
+}
+

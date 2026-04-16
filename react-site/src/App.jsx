@@ -5,6 +5,7 @@
 import Header from './components/Header'
 import './App.css'
 import Card from './components/Card';
+import { characters } from './data/character';
 
 
 function App() {
@@ -13,7 +14,11 @@ function App() {
   return (
     <main>
       <Header />
-      <Card />
+      <div >
+          {characters.map((char, index) =>(
+            <Card key={index} character={char}/>
+          ))}
+      </div>
     </main>
   )
 }

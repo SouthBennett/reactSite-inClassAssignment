@@ -1,41 +1,31 @@
 import '../components/Card.css'
 
-export default function Card (){
+export default function Card ({ character }){
     return(
-        <div class="card">
-            <h1 >
-                This is the card function
-            </h1>
-            <h2>Charactor Name</h2>
-            <img src="/Hero-placholder.png" alt="Character Image Place holder" />
-            <p>Region</p>
-            <p>stats</p>
-            <li>
-                <ul>
-                    Average age
-                </ul>
-                <ul>
-                    Strength
-                </ul>
-                <ul>
-                    Faction
-                </ul>
-            </li>
-            <p>Map to show where they come from</p>
-            <li> Facts
-                <ul>
-                    Random facts
-                </ul>
-                <ul>
-                    Random facts
-                </ul>
-                <ul>
-                    Random facts
-                </ul>
-                <ul>
-                    Random facts
-                </ul>
-            </li>
+        <div className="card">
+            <h1 className='title'>Heros</h1>
+
+            <h2 className='name'>{character.name}</h2>
+
+            <img className='character-img' src={character.image} alt={character.name} />
+            <p className='region'>{character.region}</p>
+
+            <p className='stats'>{character.stats}</p>
+
+            <ul className='details'>
+                {character.details.map((item) =>(
+                    <li>{item}</li>
+                ))}
+            </ul>
+
+            <img className="map" src={character.map} alt="Character Maps" />
+
+            <ul className='facts'>
+                {character.facts.map((fact)=>(
+                    <li>{fact}</li>
+                ))}
+            </ul>
+
         </div>
     )
 }
