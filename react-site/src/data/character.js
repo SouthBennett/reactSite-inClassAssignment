@@ -54,5 +54,60 @@ export const characters = [
       "Became close friends with Legolas",
       "Later became Lord of the Glittering Caves"
     ]
+  },
+    {
+    name: "Frodo Baggins",
+    image: "img/Frodo.png",
+    region: "The Shire",
+    stats: "Willpower, resilience, stealth",
+    details: ["Age: 50", "Strength: High mental endurance", "Faction: Fellowship / Hobbits"],
+    map: "/img/Frodo-map.png",
+    facts: ["Ring bearer", "Resists the One Ring", "Nephew of Bilbo", "Sails to the Undying Lands"]
+  },
+  {
+    name: "Samwise Gamgee",
+    image: "img/Sam.webp",
+    region: "The Shire",
+    stats: "Loyalty, endurance, courage",
+    details: ["Age: 38", "Strength: Emotional strength", "Faction: Fellowship / Hobbits"],
+    map: "/img/Samwise-map.png",
+    facts: ["Frodo’s gardener", "Carries Frodo", "Kills Shelob", "True hero of the story"]
+  },
+  {
+    name: "Meriadoc Brandybuck (Merry)",
+    image: "img/Merry.png",
+    region: "The Shire",
+    stats: "Bravery, strategy",
+    details: ["Age: 36", "Strength: Brave hobbit", "Faction: Fellowship / Hobbits"],
+    map: "/img/Merry-map.png",
+    facts: ["Helps defeat Witch-king", "Knight of Rohan", "Close friend of Pippin", "Smart and resourceful"]
+  },
+  {
+    name: "Peregrin Took (Pippin)",
+    image: "img/Pippin.webp",
+    region: "The Shire",
+    stats: "Curiosity, courage",
+    details: ["Age: 28", "Strength: Growing bravery", "Faction: Fellowship / Hobbits"],
+    map: "/img/Pippin-map.png",
+    facts: ["Triggers events in Moria", "Guard of Gondor", "Youngest member", "Loyal friend"]
+  },
+
+  {
+    name: "Gandalf",
+    image: "img/Gandalf.webp",
+    region: "Valinor (origin) / Middle-earth",
+    stats: "Magic, wisdom, leadership",
+    details: ["Age: Thousands of years", "Strength: Istari wizard", "Faction: Fellowship / Maiar"],
+    map: "/img/Gandalf-map.png",
+    facts: ["Gandalf the Grey → White", "Defeats Balrog", "Guides Fellowship", "One of the Istari"]
+  },
+  {
+    name: "Boromir",
+    image: "img/Boromir.webp",
+    region: "Gondor",
+    stats: "Combat, leadership",
+    details: ["Age: 41", "Strength: Strong human warrior", "Faction: Fellowship / Gondor"],
+    map: "/img/Boromir-map.png",
+    facts: ["Son of Denethor", "Tempted by the Ring", "Defends hobbits", "Dies heroically"]
   }
 ];

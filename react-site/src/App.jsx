@@ -3,9 +3,11 @@
 // import viteLogo from './assets/vite.svg'
 // import heroImg from './assets/hero.png'
 import Header from './components/Header'
-import './App.css'
-import Card from './components/Card';
+// import './App.css'
+import GoodGuys from './components/GoodGuys';
 import { characters } from './data/character';
+import Hero from './components/Hero'
+import Map from './components/Map';
 
 
 function App() {
@@ -14,9 +16,12 @@ function App() {
   return (
     <main>
       <Header />
+      <Hero />
+      <Map />
       <div >
+        <h1>Heros of Lord of The Rings</h1>
           {characters.map((char, index) =>(
-            <Card key={index} character={char}/>
+            <GoodGuys key={index} character={char}/>
           ))}
       </div>
     </main>

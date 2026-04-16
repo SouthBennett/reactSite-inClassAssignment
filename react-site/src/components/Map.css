@@ -1,9 +1,7 @@
-.hero-section{
+.map-section{
     border-style: double;
     border-width: 2px;
 }
-
-.hero-title{
-    font-weight: bold;
+.map-title{
     color: red;
 }

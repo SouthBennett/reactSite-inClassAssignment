@@ -1,4 +1,4 @@
-import '../components/Card.css'
+import '../components/GoodGuys.css'
 
 export default function Card ({ character }){
     return(
