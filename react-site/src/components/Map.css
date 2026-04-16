@@ -1,7 +1,18 @@
-.map-section{
-    border-style: double;
-    border-width: 2px;
+.map-section {
+    margin: 20px;
 }
-.map-title{
+
+.map-title {
     color: red;
+}
+
+.map-container {
+    width: 100%;
+}
+
+.map-img {
+    width: 100%;
+    height: auto;
+    display: block;
+    border-radius: 20px;
 }

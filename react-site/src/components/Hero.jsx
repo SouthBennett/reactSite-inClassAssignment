@@ -9,7 +9,7 @@ export default function Hero(){
                     Explore the heroes of Middle-Earth, their origins, strengths, and the legends that shaped the War of the Ring.
                 </p>
             </div>
-            <img src="img/middle-earth.jpg" alt="middle-earth-map" className="hero-img"/>
+            <img src="img/one-ring.jpg" alt="middle-earth-map" className="hero-img"/>
         </section>
     );
 }
