@@ -7,8 +7,9 @@ export default function Header() {
       <h1 className="title">The Free Peoples of Middle-Earth</h1>
       
       <nav>
-        <a href="#" className="nav-link">Card</a>
-        <a href="#" className="nav-link">Hero</a>
+        <a href="#" className="nav-link">HOME</a>
+        <a href="#" className="nav-link">LOGIN</a>
+        <a href="#" className="nav-link">SIGN UP</a>
       </nav>
     </header>
   );

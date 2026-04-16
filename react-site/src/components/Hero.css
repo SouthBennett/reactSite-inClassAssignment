@@ -1,9 +1,27 @@
-.hero-section{
-    border-style: double;
-    border-width: 2px;
+.hero {
+    text-align: center;
+    margin: 20px;
+
 }
 
-.hero-title{
-    font-weight: bold;
-    color: red;
+.hero-text {
+    color: white;
+    padding: 20px;
+    position: relative;
+}
+
+.hero h1 {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+}
+
+.hero p {
+    font-size: 1.1rem;
+}
+
+.hero-img {
+    width: 1000px;
+    height: auto;
+    display: block;
+    margin: 0 auto;
 }

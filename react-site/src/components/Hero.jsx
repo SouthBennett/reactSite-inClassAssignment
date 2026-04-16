@@ -2,11 +2,14 @@ import '../components/Hero.css'
 
 export default function Hero(){
     return(
-        <section className='hero-section'>
-            <h1 className='hero-title'>This Section is where we intro the page and talk about the story or lore of Lord of the Rings</h1>
+        <section className='hero'>
+            <div className="hero-text">
+                <h1>Welcome to Middle-Earth</h1>
+                <p>
+                    Explore the heroes of Middle-Earth, their origins, strengths, and the legends that shaped the War of the Ring.
+                </p>
+            </div>
+            <img src="img/middle-earth.jpg" alt="middle-earth-map" className="hero-img"/>
         </section>
-    )
-
-
-
+    );
 }
