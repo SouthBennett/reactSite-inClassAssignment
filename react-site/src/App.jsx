@@ -22,13 +22,13 @@ function App() {
       <Hero />
       <Map />
       <section>
-        <h1 className='card-title'>Heros of Lord of The Rings</h1>
+        <h1 className='card-title' id="heroes">Heroes of Lord of The Rings</h1>
           {characters.map((char, index) =>(
             <GoodGuys key={index} character={char}/>
           ))}
       </section>
       <section>
-        <h1 className='card-title'>Villains of Lord of The Rings</h1>
+        <h1 className='card-title' id="villains">Villains of Lord of The Rings</h1>
         {badguys.map((char, index) =>(
           <BadGuys key={index} character={char}/>
         ))}

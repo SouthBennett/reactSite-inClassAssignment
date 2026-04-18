@@ -2,7 +2,7 @@ import '../components/Hero.css'
 
 export default function Hero(){
     return(
-        <section className='hero'>
+        <section className="hero" id="hero">
             <div className="hero-text">
                 <h1>Welcome to Middle-Earth</h1>
                 <p>

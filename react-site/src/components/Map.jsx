@@ -2,7 +2,7 @@ import '../components/Map.css'
 
 export default function Map(){
     return(
-        <section className="map-section">
+        <section className="map-section" id="map">
             <h2 className="map-title">The Journey of the Fellowship</h2>
             <div className="map-container">
                 <img src="/img/Travel-map.webp" alt="middle-earth-map" className="map-img"/>
