@@ -34,6 +34,7 @@ function App() {
         ))}
       </section>
       <Footer />
+      <a href="#header" className="back-to-top">&#8593; Top</a>
     </main>
   )
 }

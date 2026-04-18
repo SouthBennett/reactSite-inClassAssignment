@@ -20,3 +20,23 @@
   font-size: 0.8rem;
   opacity: 0.8;
 }
+
+.back-to-top {
+  position: fixed;  
+  bottom: 20px;
+  right: 20px;
+
+  background-color: #1b5e20;
+  color: white;
+  padding: 10px 15px;
+  border-radius: 10px;
+
+  text-decoration: none;
+  font-size: 14px;
+
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+}
+
+.back-to-top:hover {
+  background-color: #2e7d32;
+}
