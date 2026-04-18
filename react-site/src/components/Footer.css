@@ -1,0 +1,22 @@
+.footer {
+  background-color: #1b5e20;
+  color: white;
+  text-align: center;
+  padding: 2rem, 1rem;
+  margin-top: 1.5rem;
+}
+
+.footer-title {
+  /* margin-bottom: 10px; */
+  font-size: 1rem;
+}
+
+.footer-text {
+  margin-bottom: 10px;
+  font-size: 0.8rem;
+}
+
+.footer-copy {
+  font-size: 0.8rem;
+  opacity: 0.8;
+}
