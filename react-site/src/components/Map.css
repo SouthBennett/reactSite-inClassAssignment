@@ -3,7 +3,10 @@
 }
 
 .map-title {
-    color: red;
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 20px;
+    color: white;
 }
 
 .map-container {
@@ -15,4 +18,16 @@
     height: auto;
     display: block;
     border-radius: 20px;
+}
+
+.map-facts {
+    max-width: 800px;
+    margin: 20px auto;
+    padding-left: 20px;
+    line-height: 1.6;
+    color: white;
+}
+
+.map-facts li {
+    margin-bottom: 12px;
 }

@@ -6,7 +6,7 @@ export default function Hero(){
             <div className="hero-text">
                 <h1>Welcome to Middle-Earth</h1>
                 <p>
-                    Explore the heroes of Middle-Earth, their origins, strengths, and the legends that shaped the War of the Ring.
+                    In a world of magic, war, and destiny, the people of Middle-Earth rise to confront the darkness. Explore their stories, strengths, and the paths they walked in the fight against Sauron.
                 </p>
             </div>
             <img src="img/one-ring.jpg" alt="middle-earth-map" className="hero-img"/>
