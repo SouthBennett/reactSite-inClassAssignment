@@ -5,69 +5,71 @@ export default function Map(){
         <section className="map-section">
             <h2 className="map-title">The Journey of the Fellowship</h2>
             <div className="map-container">
-                <img src="/img/fellowship-path.png" alt="middle-earth-map" className="map-img"/>
+                <img src="/img/Travel-map.webp" alt="middle-earth-map" className="map-img"/>
             </div>
 
             <ul className="map-facts">
-                <li>
+                <ul><strong>Total distance:</strong> ~1,800 miles = That's roughly Seattle to Texas</ul>
+                <ul><strong>Travel time:</strong> 6 months</ul>
+                <ul>
                     <strong>The Shire:</strong> Frodo begins his journey, leaving behind
-                    a peaceful life in Hobbiton with Sam.
-                </li>
+                    a peaceful ulfe in Hobbiton with Sam.
+                </ul>
 
-                <li>
+                <ul>
                     <strong>Bree:</strong> The Hobbits meet Aragorn (Strider), who becomes
                     their guide and protector.
-                </li>
+                </ul>
 
-                <li>
+                <ul>
                     <strong>Rivendell:</strong> The Fellowship is formed, uniting members
                     of different races to destroy the One Ring.
-                </li>
+                </ul>
 
-                <li>
+                <ul>
                     <strong>Moria:</strong> The Fellowship travels through the mines where
-                    Gandalf falls battling the Balrog.
-                </li>
+                    Gandalf falls battulng the Balrog.
+                </ul>
 
-                <li>
+                <ul>
                     <strong>Lothlórien:</strong> Galadriel gifts the Fellowship items that
                     aid them on their journey.
-                </li>
+                </ul>
 
-                <li>
+                <ul>
                     <strong>Amon Hen:</strong> Boromir tries to take the Ring, causing the
                     Fellowship to break apart.
-                </li>
+                </ul>
 
-                <li>
-                    <strong>Rohan / Helm’s Deep:</strong> Aragorn, Legolas, and Gimli help
+                <ul>
+                    <strong>Rohan / Helm’s Deep:</strong> Aragorn, Legolas, and Gimul help
                     defend Rohan against Saruman’s army.
-                </li>
+                </ul>
 
-                <li>
+                <ul>
                     <strong>Gondor / Minas Tirith:</strong> Gandalf leads the defense of
                     Gondor against Sauron’s forces.
-                </li>
+                </ul>
 
-                <li>
+                <ul>
                     <strong>Paths of the Dead:</strong> Aragorn summons the Army of the Dead
                     to fulfill an ancient oath.
-                </li>
+                </ul>
 
-                <li>
+                <ul>
                     <strong>Dead Marshes:</strong> Frodo and Sam travel through a haunted
                     battlefield filled with fallen warriors.
-                </li>
+                </ul>
 
-                <li>
+                <ul>
                     <strong>Cirith Ungol:</strong> Frodo is captured by Orcs, and Sam must
                     rescue him.
-                </li>
+                </ul>
 
-                <li>
+                <ul>
                     <strong>Mount Doom:</strong> The Ring is ultimately destroyed when
                     Gollum falls into the lava with it.
-                </li>
+                </ul>
             </ul>
             
         </section>

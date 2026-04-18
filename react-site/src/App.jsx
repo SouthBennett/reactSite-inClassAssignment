@@ -19,7 +19,7 @@ function App() {
       <Hero />
       <Map />
       <div >
-        <h1>Heros of Lord of The Rings</h1>
+        <h1 className='card-title'>Heros of Lord of The Rings</h1>
           {characters.map((char, index) =>(
             <GoodGuys key={index} character={char}/>
           ))}
