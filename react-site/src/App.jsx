@@ -8,6 +8,7 @@ import GoodGuys from './components/GoodGuys';
 import { characters } from './data/character';
 import Hero from './components/Hero'
 import Map from './components/Map';
+import Footer from './components/Footer';
 
 
 function App() {
@@ -24,6 +25,7 @@ function App() {
             <GoodGuys key={index} character={char}/>
           ))}
       </div>
+      <Footer />
     </main>
   )
 }
