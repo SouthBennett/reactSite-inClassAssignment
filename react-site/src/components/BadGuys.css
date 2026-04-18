@@ -1,0 +1,77 @@
+
+.card {
+    display: grid;
+    grid-template-areas:
+        "title title title"
+        "name name name"
+        "region image stats"
+        "details image map"
+        "facts facts facts"
+    ;
+    grid-template-columns: 1fr 1.1fr 1fr;
+    grid-template-rows: auto auto 0.5fr 1fr auto;
+    width: 70%;
+    min-height: 500px;
+    margin: 40px auto;
+    padding: 28px;
+    gap: 2px;
+    background: rgba(35, 31, 31, 0.88);
+    color: black;
+    border-radius: 100px;
+    position: relative;
+     -webkit-text-stroke: 3px white;
+     font-size: 30px;
+    
+}
+
+.title{
+    grid-area: title;
+    text-align: center;
+}
+.name{
+    grid-area: name;
+    text-align: center;
+}
+
+
+.character-img{
+    grid-area: image;
+    width: 100%;
+    max-width: 250px;
+    align-self: center;
+    justify-self: center;
+    z-index: 0;
+    /* border-radius: 2rem;
+    border-style: dashed; */
+    margin:3rem;
+    border-radius: 2rem;
+}
+
+.region{
+    grid-area: region;
+}
+
+.stats{
+    grid-area: stats;
+}
+
+.detail{
+    grid-area: details;
+}
+
+.map{
+    grid-area: map;
+    width: 100%;
+    height: 100%;
+    border-radius: 3rem;
+    border-width: 2px;
+    border-style:double;
+    margin-top: -3rem;
+}
+
+.facts{
+    grid-area: facts;
+    list-style: none;
+    padding: 0;
+}
+

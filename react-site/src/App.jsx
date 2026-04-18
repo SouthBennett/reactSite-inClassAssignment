@@ -9,6 +9,8 @@ import { characters } from './data/character';
 import Hero from './components/Hero'
 import Map from './components/Map';
 import Footer from './components/Footer';
+import { badguys } from './data/badguys';
+import BadGuys from './components/BadGuys'
 
 
 function App() {
@@ -19,12 +21,18 @@ function App() {
       <Header />
       <Hero />
       <Map />
-      <div >
+      <section>
         <h1 className='card-title'>Heros of Lord of The Rings</h1>
           {characters.map((char, index) =>(
             <GoodGuys key={index} character={char}/>
           ))}
-      </div>
+      </section>
+      <section>
+        <h1 className='card-title'>Villains of Lord of The Rings</h1>
+        {badguys.map((char, index) =>(
+          <BadGuys key={index} character={char}/>
+        ))}
+      </section>
       <Footer />
     </main>
   )
